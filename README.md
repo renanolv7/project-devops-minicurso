@@ -30,7 +30,7 @@ minicurso-devops-app/
 
 ## Como configurar
 
-### 1. Fork e clone
+### 1. Clone
 
 Dê fork neste repositório pelo GitHub e depois clone a sua cópia:
 
