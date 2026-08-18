@@ -35,7 +35,7 @@ minicurso-devops-app/
 Dê fork neste repositório pelo GitHub e depois clone a sua cópia:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repo.git
+git clone https://github.com/seu-usuario/nome-do-repo.git](https://github.com/renanolv7/project-devops-minicurso.git
 cd nome-do-repo
 ```
 
