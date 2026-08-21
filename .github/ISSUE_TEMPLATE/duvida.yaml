@@ -1,0 +1,26 @@
+name: "Dúvida"
+description: Tire uma dúvida sobre o minicurso ou sobre o projeto
+title: "[Dúvida]: "
+labels: ["duvida"]
+body:
+  - type: dropdown
+    id: etapa
+    attributes:
+      label: Em qual etapa você está?
+      options:
+        - Criação do servidor Azure
+        - Configuração do banco de dados
+        - Conexão com o VS Code
+        - Código Python (main.py / config.py)
+        - Git/GitHub
+        - Outra
+    validations:
+      required: true
+  - type: textarea
+    id: duvida
+    attributes:
+      label: Qual é a sua dúvida?
+      description: Descreva o que você não entendeu ou onde travou.
+      placeholder: "Ex.: Não entendi como funciona o firewall do Azure..."
+    validations:
+      required: true
