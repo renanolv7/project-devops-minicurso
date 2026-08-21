@@ -1,6 +1,6 @@
-# Cadastro de Produtos — Minicurso DevOps
+# Minicurso DevOps — Cadastro de Produtos 
 
-Sisteminha simples de cadastro de produtos via terminal, feito em Python com banco de dados MySQL rodando no Azure. Projeto base do minicurso de DevOps, usado para praticar Git/GitHub, Cloud e conceitos de IaC.
+Sistema simples de cadastro de produtos via terminal, feito em Python com banco de dados MySQL rodando no Azure. Projeto base do minicurso de DevOps, usado para praticar Git/GitHub, Cloud.
 
 ## O que o projeto faz
 
