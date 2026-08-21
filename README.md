@@ -22,10 +22,11 @@ Antes de começar, você vai precisar de:
 
 ```
 minicurso-devops-app/
-├── config.py
-├── main.py
 ├── .env.example
-└── .gitignore
+├── .gitignore
+├── README.md
+├── config.py
+└── main.py
 ```
 
 ## Como configurar
