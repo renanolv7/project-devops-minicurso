@@ -1,0 +1,26 @@
+name: "Bug Report"
+description: Reporte um erro ou comportamento inesperado no código/projeto
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: O que aconteceu?
+      description: Descreva o erro com o máximo de detalhes possivel. Se precisar, cole a mensagem completa ou print de erro.
+      placeholder: Cole aqui o traceback ou a mensagem de erro
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: O que você esperava que acontecesse?
+    validations:
+      required: false
+  - type: input
+    id: sistema
+    attributes:
+      label: Sistema operacional
+      placeholder: "Ex.: Windows 11, macOS Sonoma"
+    validations:
+      required: false
