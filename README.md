@@ -31,7 +31,7 @@ minicurso-devops-app/
 
 ## Como configurar
 
-### 1. Clone
+### 1. Fork/Clone
 
 Dê fork neste repositório pelo GitHub e depois clone a sua cópia:
 
@@ -110,3 +110,5 @@ Ao rodar, o programa mostra um menu:
 ## Sobre
 
 Projeto desenvolvido como material de apoio para o minicurso de DevOps do Scitech.
+
+
