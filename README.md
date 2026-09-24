@@ -90,7 +90,7 @@ cp .env.example .env
 Preencher o arquivo `.env`:
  
 ```
-DB_HOST=seu-servidor.mysql.database.azure.com
+DB_HOST=seu-servidor.database.azure.com
 DB_USER=seu_usuario_admin
 DB_PASSWORD=sua_senha
 DB_NAME=nome_do_seu_banco
