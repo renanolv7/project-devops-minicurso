@@ -159,12 +159,10 @@ Ao rodar, o programa mostra um menu:
 
 | Erro | O que fazer |
 |---|---|
-| `ModuleNotFoundError: No module named 'mysql'` | Rode `python -m pip install mysql-connector-python` usando o mesmo Python configurado no seu editor |
 | `Unknown database 'xxx'` | O nome em `DB_NAME` no `.env` não bate com o banco criado no Azure, ou o banco ainda não existe, confira o nome ou crie o banco pelo portal |
-| `Can't connect to MySQL server` | Seu IP não está liberado no firewall do Azure, veja o passo 4 |
+| `Can't connect to SQL server` | Seu IP não está liberado no firewall do Azure, veja o passo 4 |
 | `Authentication plugin 'caching_sha2_password' is not supported` | O erro corre porque o MySQL 8+ usa por padrão o plugin de autenticação caching_sha2_password, mas a biblioteca que você está usando no Python está desatualizada ou não reconhece esse método nativamente. Instalar a biblioteca correta. |
 | Menu não aparece / erro ao importar | Confira se está rodando `python src/main.py` de dentro da pasta do projeto, e se o `.env` está no mesmo lugar |
-
 
 ## Segurança
 
